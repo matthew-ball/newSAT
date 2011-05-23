@@ -1,0 +1,7 @@
+
+* newSAT is a simple SAT solver written in Haskell
+** the newSAT process is as follows:
+   - [ ] Take a logical formula as input.
+   - [ ] Convert formula into it's respective negation normal form.
+   - [ ] Convert the NNF'd formula into it's respective conjunctive normal form.
+   - [ ] Apply DPLL to the CNF'd formula.
