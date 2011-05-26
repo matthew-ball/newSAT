@@ -1,3 +1,0 @@
-{-- Transform an expression to a respective negation normal form --}
-
-nnf :: Expression -> Expression
