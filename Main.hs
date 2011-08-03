@@ -7,6 +7,9 @@ import NNF
 import CNF
 import DNF
 import Parse
+-- import DPLL
+
+-- TODO: implement DPLL in Haskell
 
 main :: IO ()
 main = do { putStr "Enter a Proposition: ";
