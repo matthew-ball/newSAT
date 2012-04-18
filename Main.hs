@@ -12,8 +12,9 @@ import Parse
 -- TODO: implement DPLL in Haskell
 
 main :: IO ()
-main = do { putStr "Enter a Proposition: ";
+main = do { putStr "Enter an expression of propositional logic: ";
 	    proposition <- getLine;
-	    putStrLn (("Proposition '") ++ (read (show proposition)) ++ ("' evaluates to: ") ++ "")}
+	    putStrLn (("The expression '") ++ (read (show proposition)) ++ ("' has the following models: ") ++ "")
             -- (read (show (cnf (nnf proposition))))
-	    -- putStrLn ("Proposition evaluates to: " ++ (show (nnf (read proposition))))}
+	    -- putStrLn ("Proposition evaluates to: " ++ (show (nnf (read proposition))) ++ "")
+          }
